@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "bot-luncraftlist/index.js",
+      "src": "index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "bot-luncraftlist/index.js"
+      "dest": "index.js"
     }
   ]
 }
